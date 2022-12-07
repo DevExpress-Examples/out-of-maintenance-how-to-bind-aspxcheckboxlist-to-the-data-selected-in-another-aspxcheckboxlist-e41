@@ -8,7 +8,7 @@ Imports System.Web.UI.WebControls
 
 Partial Public Class _Default
 	Inherits System.Web.UI.Page
-	Protected Sub cpUpdateProducts_Callback(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxClasses.CallbackEventArgsBase)
+	Protected Sub cpUpdateProducts_Callback(ByVal sender As Object, ByVal e As DevExpress.Web.CallbackEventArgsBase)
 		If String.IsNullOrEmpty(e.Parameter) Then
 			Return
 		End If

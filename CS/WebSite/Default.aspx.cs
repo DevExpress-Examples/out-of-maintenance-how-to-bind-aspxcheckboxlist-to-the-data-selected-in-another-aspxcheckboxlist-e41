@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 
 public partial class _Default : System.Web.UI.Page {
-    protected void cpUpdateProducts_Callback(object sender, DevExpress.Web.ASPxClasses.CallbackEventArgsBase e)
+    protected void cpUpdateProducts_Callback(object sender, DevExpress.Web.CallbackEventArgsBase e)
     {
         if (String.IsNullOrEmpty(e.Parameter))
             return;
